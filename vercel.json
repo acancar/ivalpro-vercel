@@ -5,8 +5,8 @@
       "destination": "https://app-djomiks.vercel.app/:match*"
     },
     {
-      "source": "/videonadzor/:match*",
-      "destination": "https://videonadzor.vercel.app/:match*"
+      "source": "/videonadzor/",
+      "destination": "https://videonadzor.vercel.app/"
     },
     {
       "source": "/:match*",
