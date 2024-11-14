@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/djomiks/:match*",
+      "destination": "https://app-djomiks.vercel.app/:match*"
+    },
+    {
+      "source": "/videonadzor/:match*",
+      "destination": "https://videonadzor.vercel.app/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://your-app.vercel.com/:match*"
+    }
+  ]
+}
